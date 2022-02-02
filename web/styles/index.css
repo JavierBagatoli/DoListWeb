@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../src/Images/bg-Alta.png");
+  background-size: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  margin: 3vh 4vw;
+  padding: 0.6vw;
+  border-radius: 2vw;
+  background-color: white;
+  border-color: #B762C1;
+  border-style: solid;
+  display: flex;
+}
+
+
+nav h2 {
+  margin-left: 2vw;
+  color: #675879;
+  font-weight: bold;
+}
+
+header {
+  margin-top: 12vh;
+  margin-left: 3vw;
+}
+
+header h1 {
+  color: #8946A6;
+  font-size: 4vw;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choose-cont {
+  margin-top: 11vh;
+}
+
+.choose-cont h2 {
+  font-size: 2vw;
+  color: #8946A6;
+  margin-left: 12vw;
+}
+
+.choose-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vh;
+}
+
+.choose-input input {
+  width: 12vw;
+  height: 25vh;
+  margin-left: 4vw;
+
+}
+
+
+.tasks-cont {
+  margin-top: 4vh;
+  margin-right: 10vw;
+  display: flex;
+  
+}
+
+
+.tasks {
+  display: flex;
+  align-items: center;
+
+}
+
+.tasks div {
+  padding: 16vh 4vw;
+  border-style: solid;
+  border-radius: 4vw;
+  margin: 0.5vw;
+}
+
+

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("/web/src/Images/bg-Alta.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  height: 32vh;
+  width: 22vw;
+  margin-right: 2vw ;
+
+}
+
+.login h1 {
+  color: #8946A6;
+  font-weight: 300;
+}
+
+.log-container input {
+  padding: 1vh;
+  border-radius: 1vw;
+  border-style: dashed;
+  border-color: #EA99D5;
+}
+
+.log-container button {
+  cursor: pointer;
+  background-color: white;
+  color: #8946A6;
+  padding: 1vh;
+  border-radius: 3vh 1vw ;
+  border-color: #EA99D5;
+  border-style: solid;
+  margin-left: 3vw;
+  
+
+}
+
+ 
